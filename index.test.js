@@ -13,5 +13,9 @@ describe('fizzBuzz()', () => {
 
     it('returns "Fizz" for multiples of 3', () => {
         expect(fizzBuzz(27)).toBe('Fizz');
-    })
+    });
+
+    it('returns "Buzz" for multiples of 5', () => {
+        expect(fizzBuzz(25)).toBe('Buzz');
+    });
 });
