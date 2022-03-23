@@ -10,4 +10,8 @@ describe('fizzBuzz()', () => {
         expect(fizzBuzz(1)).toBe('1');
         expect(fizzBuzz(22)).toBe('22');
     });
+
+    it('returns "Fizz" for multiples of 3', () => {
+        expect(fizzBuzz(27)).toBe('Fizz');
+    })
 });
